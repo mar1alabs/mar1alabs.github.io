@@ -299,7 +299,13 @@ body{
     grid-template-columns: repeat(auto-fit, minmax(280px, 320px));
     gap: 15px;
     justify-content: center;
-    margin-bottom: 60px;
+    margin-bottom: 30px;
+}
+
+.tfm-buttons{
+    margin-top: 40px;
+    display:flex;
+    justify-content:center;
 }
 
 .terminal-btn{
@@ -564,10 +570,3 @@ body{
     background:#38bdf8;
     color:#0f172a;
 }
-
-.tfm-buttons{
-    margin-top: 50px;
-    display:flex;
-    justify-content:center;
-}
-
