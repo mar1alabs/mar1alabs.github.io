@@ -265,10 +265,9 @@ body{
 
 .tfm-impact{
     display: grid;
-    grid-template-columns: repeat(2, 320px);
+    grid-template-columns: repeat(auto-fit, minmax(280px, 320px));
     gap: 15px;
     justify-content: center;
-    width: 100%;
 }
 
 .tfm-content{
@@ -297,7 +296,7 @@ body{
 
 .vuln-grid{
     display: grid;
-    grid-template-columns: repeat(2, 320px);
+    grid-template-columns: repeat(auto-fit, minmax(280px, 320px));
     gap: 15px;
     justify-content: center;
 }
