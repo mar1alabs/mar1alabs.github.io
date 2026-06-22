@@ -297,6 +297,10 @@ body{
     justify-content: center;
 }
 
+.vuln-grid{
+    justify-items: center;
+}
+
 .vuln-card{
     padding:20px;
     border-radius:12px;
