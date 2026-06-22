@@ -299,6 +299,19 @@ body{
     grid-template-columns: repeat(auto-fit, minmax(280px, 320px));
     gap: 15px;
     justify-content: center;
+    margin-bottom: 60px;
+}
+
+.terminal-btn{
+    font-family: "Courier New", monospace;
+    background: rgba(0,0,0,0.3);
+    border: 1px solid #38bdf8;
+    color: #38bdf8;
+}
+
+.terminal-btn:hover{
+    background: #38bdf8;
+    color: #0f172a;
 }
 
 .vuln-card{
