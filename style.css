@@ -565,3 +565,9 @@ body{
     color:#0f172a;
 }
 
+.tfm-buttons{
+    margin-top: 50px;
+    display:flex;
+    justify-content:center;
+}
+
