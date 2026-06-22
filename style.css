@@ -292,10 +292,9 @@ body{
 
 .vuln-grid{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(260px, 260px));
     gap: 15px;
     justify-content: center;
-    justify-items: center;
 }
 
 .vuln-card{
